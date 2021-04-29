@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Chris Miller's Portfolio</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome-animation.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="images/logo.png">
+</head>
+<!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Hello, I'm <span>Chris Miller</span></h1>
+            <p class="animated fadeInRightBig">Bootstrap - HTML - CSS - Responsive Webpages </p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#skills">Learn More</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/2.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">I'm a <span>Software Engineer</span></h1>
+            <p class="animated fadeInRightBig">JavaScript - Node.JS - Express - Python</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#skills">Learn More</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">I currently live in <span>Houston</span></h1>
+            <p class="animated fadeInRightBig">React - Restful API's - NPM - Databases</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#skills">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#skills"><i class="fa fa-angle-down"></i></a>
+
+    </div>
+    <!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a class="nav-home" href="#home">Home</a></li>
+            <li class="scroll"><a class="nav-skills" href="#skills">Skills</a></li>
+            <li class="scroll"><a class="nav-about-me" href="#about-us">About Me</a></li>
+            <li class="scroll"><a class="nav-projects" href="#portfolio">Projects</a></li>
+            <li class="scroll"><a class="nav-contact" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/#main-nav-->
+  </header>
+  <!--/#home-->
+  <section id="skills">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+          </div>
+        </div>
+      </div>
+      <div class="text-center skills-icons">
+        <h2>Skills</h2>
+        <br>
+        <p>With my experience and variety of skills, I can help you to achieve your goals and help create products that
+          work for you or your organization. </p>
+        <br>
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="fab fa-npm"></i>
+            </div>
+            <div class="service-info">
+              <h3>NPM</h3>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <div class="service-info">
+              <h3>Python</h3>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="service-icon">
+              <i class="fab fa-node"></i>
+            </div>
+            <div class="service-info">
+              <h3>Node.js</h3>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="service-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <div class="service-info">
+              <h3>CSS3</h3>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="service-icon">
+              <i class="fab fa-html5 faa-spin animated faa-burst"></i>
+            </div>
+            <div class="service-info">
+              <h3>HTML5</h3>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class=" fab fa-react"></i>
+            </div>
+            <div class="service-info">
+              <h3>React</h3>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <div class="service-info">
+              <h3>JavaScript</h3>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="service-info">
+              <h3>Databases</h3>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="service-icon">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="service-info">
+              <h3>Express.js</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#skills-->
+
+  <!--#about me-->
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2 class="about-me">About Me</h2>
+            <p>My family and I moved to Houston from Louisiana in 2014. &nbsp; For the last twenty years I have worked
+              in the oil and gas industry.&nbsp; Some of those jobs included Pump Supervisor, Slickline Operator, MWD
+              Field Engineer, Real-Time Observation Consultant, and Wireline Engineer. </p>
+            <p>After several industry slow downs,&nbsp;I decided a career change was needed.&nbsp; I began to pursue my
+              Bachelor's in Computer Science at Western Governors University. &nbsp; While attending classes I soon
+              realized that in order for me to better understand the course work, I needed to know how to write code.
+              &nbsp; I then enrolled in DigitalCrafts Full Stack Immersive Bootcamp. &nbsp;While at DigitalCrafts I
+              learned many important skills in several programming languages that helped reinforce the course
+              foundations in my bachelor's program. &nbsp;Upon graduation from DigitalCrafts, I plan to finishing my
+              Bachelor program at WGU before exploring the job market.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/#about-us-->
+
+  <!--#projects-->
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms"
+          data-wow-delay="300ms">
+          <h2>My Projects</h2>
+          <p>Below are my projects that were completed via solo work or as a team project. &nbsp; Some of the languages
+            used included CSS, HTML, JavaScript, Python, Node.js, and React.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/Pygame/Pygame.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Space Invaders Pygame</h3>
+                    <p>Python Project</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a href="https://github.com/ChrisMiller83/Space_Invader_pygame"
+                        target="_blank"><i class="fab fa-github"></i></a></span>
+                    <span class="folio-expand">
+                      <a href="images/portfolio/Pygame/Pygame.png" data-lightbox="portfolio1"><i
+                          class="far fa-images"></i></a>
+                      <a href="images/portfolio/Pygame/PygameGamePlay.png" data-lightbox="portfolio1"
+                        style="display: none;"></a>
+                      <a href="images/portfolio/Pygame/PygameStartMenu.png" data-lightbox="portfolio1"
+                        style="display: none;"></a>
+                      <a href="images/portfolio/Pygame/PygamePauseMenu.png" data-lightbox="portfolio1"
+                        style="display: none;"></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/ReactMemoryGame/ReactMemoryGameStart.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>React Memory Game</h3>
+                    <p>React</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a href="https://github.com/ChrisMiller83/React-memory-game"
+                        target="_blank"><i class="fab fa-github"></i></a></span>
+                    <span class="folio-expand">
+                      <a href="images/portfolio/ReactMemoryGame/ReactMemoryGameStart.png" data-lightbox="portfolio2"><i
+                          class="far fa-images"></i></a>
+                      <a href="images/portfolio/ReactMemoryGame/ReactMGinAction.png" data-lightbox="portfolio2"
+                        style="display: none;"></a>
+                      <a href="images/portfolio/ReactMemoryGame/ReactMGreset.png" data-lightbox="portfolio2"
+                        style="display: none;"></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/HealtierU/healthierU_homepage.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>healtierU</h3>
+                    <p>Back-End Team Project</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a href="http://healthieru.herokuapp.com/" target="_blank"
+                        data-single_url="portfolio-single.html" target="_blank"><i
+                          class="fas fa-desktop"></i></a></span>
+                    <span class="folio-expand">
+                      <a href="images/portfolio/HealtierU/healthierU_homepage.png" data-lightbox="portfolio3"><i
+                          class="far fa-images"></i></a>
+                      <a href="./images/portfolio/HealtierU/HealthierUAthleteListPage.png" data-lightbox="portfolio3"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/HealtierU/healthieruCoachHomePage.png" data-lightbox="portfolio3"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/HealtierU/HealtierUAteleteHomePage.png" data-lightbox="portfolio3"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/HealtierU/HealtierUCoachList.png" data-lightbox="portfolio3"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/HealtierU/HealtierUMealPage.png" data-lightbox="portfolio3"
+                        style="display: none;"></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="images/portfolio/PizzaWebsite/PizzaHome.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Pizza Website</h3>
+                    <p>Simple Pizza Website</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a href="https://github.com/ChrisMiller83/Pizza-Website"
+                        data-single_url="portfolio-single.html" target="_blank"><i class="fab fa-github"></i></a></span>
+                    <span class="folio-expand">
+                      <a href="images/portfolio/PizzaWebsite/PizzaHome.png" data-lightbox="portfolio4"><i
+                          class="far fa-images"></i></a>
+                      <a href="./images/portfolio/PizzaWebsite/PizzaSelectCont.png" data-lightbox="portfolio4"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/PizzaWebsite/PizzaContact.png" data-lightbox="portfolio4"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/PizzaWebsite/PizzaCheckout.png" data-lightbox="portfolio4"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/PizzaWebsite/PizzaCheckout2.png" data-lightbox="portfolio4"
+                        style="display: none;"></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="./images/portfolio/ConvoCare/ConvoCareHomePage.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>ConvoCare</h3>
+                    <p>Capstone Project</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fas fa-desktop"></i></a></span>
+                    <span class="folio-expand">
+
+                      <a href="./images/portfolio/ConvoCare/ConvoCareHomePage.png" data-lightbox="portfolio5"><i
+                          class="far fa-images"></i></a>
+                      <a href="./images/portfolio/ConvoCare/ConvoCareHealthTopic.png" data-lightbox="portfolio5"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/ConvoCare/ConvoCareForumPage.png" data-lightbox="portfolio5"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/ConvoCare/ConvoCareJournalPage.png" data-lightbox="portfolio5"
+                        style="display: none;"></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
+            <div class="folio-image">
+              <img class="img-responsive" src="./images/portfolio/QuizMe/QuizMeHomePage.png" alt="">
+            </div>
+            <div class="overlay">
+              <div class="overlay-content">
+                <div class="overlay-text">
+                  <div class="folio-info">
+                    <h3>Quiz Me</h3>
+                    <p>Solo React Project</p>
+                  </div>
+                  <div class="folio-overview">
+                    <span class="folio-link"><a class="folio-read-more" href="#"
+                        data-single_url="portfolio-single.html"><i class="fab fa-github"></i></a></span>
+                    <span class="folio-expand">
+                      <a href="images/portfolio/QuizMe/QuizMeHomePage.png" data-lightbox="portfolio6"><i
+                          class="far fa-images"></i></a>
+                      <a href="./images/portfolio/QuizMe/QuizMeCategorySelect.png" data-lightbox="portfolio6"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/QuizMe/QuizMeQuestionsPage.png" data-lightbox="portfolio6"
+                        style="display: none;"></a>
+                      <a href="./images/portfolio/QuizMe/QuizMeResultsPage.png" data-lightbox="portfolio6"
+                        style="display: none;"></a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div id="portfolio-single-wrap">
+      <div id="portfolio-single">
+      </div>
+    </div><!-- /#portfolio-single-wrap -->
+  </section>
+  <!--/#portfolio-->
+
+
+
+  <section id="contact">
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms"
+            data-wow-delay="300ms">
+            <h2>Contact Me</h2>
+            <div class="contact-logo">
+              <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+            </div>
+            <p>If you would like to contact me you can select one of the links below.</p>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <ul class="address">
+                <li><button onclick="window.location.href='mailto:chrismillerdev2021@gmail.com';" class="email-btn"><i
+                      class="fa fa-envelope"></i> <span> Email:&nbsp;
+                    </span>chrismillerdev2021@gmail.com</button></li>
+                <li>
+                  <form action="http://www.linkedin.com/in/chris-miller-0450a1aa/" method="GET" target="_blank">
+                    <button type="submit" class="linkedin-btn"><i class="fab fa-linkedin"></i>
+                      <span> LinkedIn </span> </button>
+                  </form>
+                </li>
+                <li>
+                  <form action="https://github.com/ChrisMiller83" method="GET" target="_blank"><button type="submit"
+                      class="github-btn"><i class="fab fa-github-square"></i>
+                      <span>
+                        Github</span></button></form>
+                </li>
+                <li>
+                  <form action="https://digitalcrafts.slack.com/team/U01HP21N8Q0" method="GET" target="_blank"><button
+                      type="submit" class="slack-btn"><i class="fab fa-slack"></i> <span>
+                        Slack</span></button></form>
+                </li>
+                <li>
+                  <form action="./images/Christopher Miller's Resume Software Engineer.pdf" method="GET"
+                    target="_blank">
+                    <button type="submit" class="view-resume-btn"><i class="fa fa-eye" aria-hidden="true"></i> <span>
+                        View My Resume</span></button>
+                  </form>
+                </li>
+                <li><button class="download-resume-btn"><a id="download-resume-btn"
+                      href="./images/Christopher Miller's Resume Software Engineer.pdf" download><i
+                        class="fa fa-download" aria-hidden="true"></i> <span>
+                        Download My Resume</span></button> </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!--/#contact-->
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <p>&copy; Chris Miller</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/slider.js"></script>
+</body>
+
+</html>

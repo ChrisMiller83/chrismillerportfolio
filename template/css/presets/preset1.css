@@ -1,0 +1,112 @@
+@keyframes color-change {
+  0% {background-color: crimson;}
+  12.5% {background-color: red;}
+  25% {background-color: orange;}
+  37.5% {background-color: gold;}
+  50% {background-color: darkgreen;}  
+  62.5% {background-color: lightskyblue;}
+  75% {background-color: navy;}   
+  87.5% {background-color: darkgrey;}
+  100% {background-color: black;}
+}
+
+@keyframes change-color {
+  0% {color: crimson;}
+  12.5% {color: red;}
+  25% {color: orange;}
+  37.5% {color: gold;}
+  50% {color: darkgreen;}  
+  62.5% {color: lightskyblue;}
+  75% {color: navy;}   
+  87.5% {color: darkgrey;}
+  100% {color: black;}
+}
+
+
+.navbar-brand,
+.nav-home,
+.nav-skills,
+.nav-about-me,
+.nav-projects,
+.nav-contact,
+.service-icon,
+.navbar-collapse,
+.contact-info ul li a:hover, 
+#single-portfolio .close-folio-item:hover, 
+#footer .footer-bottom a  {
+	color: red;
+  animation-name: color-change;
+  animation-duration: 100s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+a,
+.single-table.featured .btn.btn-primary, 
+.left-control:hover, .post-icon,
+.right-control:hover, 
+.btn-loadmore:hover,
+.entry-header .date:after,   
+.caption .btn-start:hover,
+.folio-overview a:hover,
+.btn.btn-primary {
+	background-color: orange;
+}
+
+
+
+
+#home-slider .caption h1 span{
+	color: orange;
+}
+
+
+.btn.btn-primary:hover,
+.btn-submit:hover {
+	background-color: black
+}
+
+a:hover, a:focus {
+	color: black;
+}
+
+h2, p, h3 {
+	color: white
+}
+
+.service-icon, .footer.p{
+	color: white;
+} 
+
+.service-icon {
+	background-color: white;
+  animation-name: change-color;
+  animation-duration: 100s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+	animation-delay: -50s;
+}
+
+.single-table.featured,  
+.btn-submit,
+#footer,
+.navbar-collapse, 
+.main-nav{ 
+  background-color: red;
+  animation-name: color-change;
+  animation-duration: 100s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+
+.caption .btn-start:hover, 
+.left-control:hover,  
+.right-control:hover {
+	border-color: orange;
+}
+
